@@ -1,0 +1,56 @@
+<!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
+{% if site.resume_social_links %}
+<ul class="icon-links">
+
+  <!-- PDF CV Download -->
+  <li class="icon-link-item"><a href="{{ '/images/PUBLIC_CV_andre-erlangga_TL.pdf' | relative_url }}" class="icon-link" download="PUBLIC_CV_andre-erlangga_TL.pdf">{% include icons/icon-pdf.html %}<span class="link-text">Download CV</span></a></li>
+
+  <!-- Email link -->
+  {% if site.resume_social_links.resume_email_url %}
+  <li class="icon-link-item"><a href="mailto:{{ site.resume_social_links.resume_email_url }}" class="icon-link" itemprop="email">{% include icons/icon-email.html %}<span class="link-text">Email to andre.er@live.com</span></a></li>
+  {% endif %}
+
+  <!-- GitHub link -->
+  {% if site.resume_social_links.resume_github_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link" itemprop="sameAs" target="_blank">{% include icons/icon-github.html %}<span class="link-text">GitHub/andre-erlangga</span></a></li>
+  {% endif %}
+
+  <!-- Twitter link -->
+  {% if site.resume_social_links.resume_twitter_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_twitter_url }}" class="icon-link" itemprop="sameAs" target="_blank">{% include icons/icon-twitter.html %}<span class="link-text">Twitter</span></a></li>
+  {% endif %}
+  
+  <!-- Medium link -->
+  {% if site.resume_social_links.resume_medium_url %}
+  <li class="icon-link-item">
+    <a href="{{ site.resume_social_links.resume_medium_url }}" class="icon-link" itemprop="url" target="_blank">{% include icons/icon-medium.html %}<span class="link-text">Medium/@andre.er</span></a>
+  </li>
+  {% endif %}
+
+  <!-- Dribbble link -->
+  {% if site.resume_social_links.resume_dribbble_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_dribbble_url }}" class="icon-link" itemprop="sameAs" target="_blank">{% include icons/icon-dribbble.html %}<span class="link-text">Dribbble</span></a></li>
+  {% endif %}
+
+  <!-- Facebook link -->
+  {% if site.resume_social_links.resume_facebook_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_facebook_url }}" class="icon-link" itemprop="sameAs" target="_blank">{% include icons/icon-facebook.html %}<span class="link-text">Facebook</span></a></li>
+  {% endif %}
+
+  <!-- LinkedIn link -->
+  {% if site.resume_social_links.resume_linkedin_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_linkedin_url }}" class="icon-link" itemprop="sameAs" target="_blank">{% include icons/icon-linkedin.html %}<span class="link-text">LinkedIn/andre-erlangga</span></a></li>
+  {% endif %}
+
+  <!-- Instagram link -->
+  {% if site.resume_social_links.resume_instagram_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_instagram_url }}" class="icon-link" itemprop="sameAs" target="_blank">{% include icons/icon-instagram.html %}<span class="link-text">Instagram</span></a></li>
+  {% endif %}
+
+  <!-- Website link -->
+  {% if site.resume_social_links.resume_website_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_website_url }}" class="icon-link" itemprop="url" target="_blank">{% include icons/icon-website.html %}<span class="link-text">Website</span></a></li>
+  {% endif %}
+
+</ul>
+{% endif %}

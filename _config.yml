@@ -1,0 +1,79 @@
+# Site settings
+title: "Andre Erlangga"
+description: "Resume"
+
+# GitHub Pages settings
+url: "https://andre-erlangga.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# GitHub Pages
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Andre Erlangga"
+resume_title:                   "Technical Lead"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "andre.er@live.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "000-0000"
+resume_contact_address:         "-"
+
+resume_header_contact_info:     "-"
+display_header_contact_info:    "false"
+
+resume_header_intro: "<p>I think in systems, but work through people, building software the way a good strategist plays chess: with clarity, foresight, and a genuine care for the players on the board. As a Technical Lead, I merge creativity with engineering discipline to deliver cross-platform applications and software systems that are not just technically robust, but also human-centered.</p>
+
+<p>My journey has taken me from crafting C++ code in game studios to guiding teams through projects across industries, from everyday consumer apps to complex enterprise ecosystems. I help turn ideas into working products, making sure they’re secure, scalable, and purposeful.</p>
+
+<p>With deep experience in Modern Android Development (MAD), Kotlin Multiplatform, and Flutter, I bring curiosity, adaptability, and a hands-on spirit to every project. I enjoy working side by side with teams, solving problems, sharing ideas, and building software that matters.</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+#resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        true
+resume_section_skills:          true
+#resume_section_recognition:     true
+#resume_section_links:           true
+#resume_section_associations:    true
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/andre-erlangga"
+#  resume_twitter_url:           "http://twitter.com/"
+#  resume_dribbble_url:          "https://dribbble.com/"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/andre-erlangga-2608ba94"
+  # resume_instagram_url:         "insert your Instagram URL here"
+#  resume_website_url:           ""
+  resume_medium_url:            "https://medium.com/@andre.er"
+  resume_email_url:             "andre.er@live.com"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts

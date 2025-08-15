@@ -1,0 +1,38 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+- project: Point of Sale System & Kitchen Display System
+#  role: Founder & Primary Developer
+#  duration: 2012 &mdash; Present
+  # url: "#"
+  description: Developed a POS system integrated with KDS functionality and a loyalty mobile app, streamlining F&B operations and improves efficiency in order fulfillment.
+
+- project: JMO BPJSTK
+#  role: Co-Founder & Organizer
+#  duration: 2007 &mdash; Present
+  # url: "#"
+  description: Built a digital service platform enabling customers to access BPJS Ketenagakerjaan services remotely, reducing branch visits and improving service accessibility.
+
+- project: Merchant BCA
+  description: Created a merchant outlet registration app for EDC & QRIS, simplifying onboarding and accelerating merchant activation.
+
+- project: BCA Life
+  description: Delivered an insurance claim mobile app to digitalize claim submissions, reducing processing time and improving customer experience.
+
+- project: Revivo
+  description: Engineered a gospel music streaming app with synchronized lyrics display, fostering spiritual engagement and enriching the listening experience.
+
+- project: Chatime Customer & Merchant App
+  description: Kawan Lama Group – Developed a mobile ordering and loyalty app for retail F&B, increasing repeat purchases and order efficiency.
+
+- project: Union U+Rewards
+  description: The Union Group – Launched a mobile loyalty app to strengthen customer engagement and retention.
+
+- project: Bright Payment Point
+  description: Built a PPOB and EDC payment app supporting debit, credit, eMoney, and TapCash transactions, improving payment flexibility for merchants.
+
+- project: Field Service Management
+  description: Developed a scheduler, reporting, and task management tool to improve agent's operational productivity.
+
+- project: CGV Cinemas
+  description: Created a cinema ticketing mobile app for seamless movie booking and seat selection.

@@ -1,0 +1,15 @@
+# Jobs
+- company: PT Akar Inti Teknologi
+  position: Technical Lead
+  duration: Dec, 2020 &mdash; Present
+  summary: <ul class="resume-item-list"><li>Lead mobile app development across Kotlin (native) and Flutter, delivering scalable solutions for high-transaction, high-user systems.</li><li>Oversee end-to-end mobile projects, from feature design to deployment, ensuring performance, maintainability, and security.</li><li>Guide teams in applying secure coding practices, with familiarity in OWASP Mobile Security principles.</li><li>Collaborate with cross-functional teams to align product goals with technical feasibility.</li></ul>
+
+- company: Inspira Solusi Indonesia
+  position: Lead Mobile Developer / Mobile Developer
+  duration:  Jan, 2018 &mdash; Dec, 2020
+  summary: <ul class="resume-item-list"><li>Transitioned from game to mobile app development, starting with iOS (Swift) and expanding to Android.</li><li>Delivered apps for banking, insurance, finance, and mobile streaming, overseeing architecture, UI/UX, REST API integration, and navigation flows.</li><li>Led mobile teams, translating client needs into scalable technical solutions and ensuring high-quality delivery.</li><li>Adapted to evolving tech stacks based on project requirements.</li></ul>
+
+- company: Gameloft Indonesia
+  position: Project Lead / SPV / Senior / Junior Programmer
+  duration:   Feb, 2014  &mdash; Jan, 2018
+  summary: <ul class="resume-item-list"><li>Developed mobile game features in C++ and OpenGL, including in-app purchase systems.</li><li>Integrate gameplay data analytics, translating metrics into design and engagement improvements.</li><li>Managed teams as Project Lead Programmer, handling task allocation, progress tracking, and stakeholder communication.</li><li>Balanced tight deadlines with code quality, fostering maintainable and efficient solutions.</li></ul>
